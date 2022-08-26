@@ -289,6 +289,14 @@ main>section{
     margin-top: 10px;
 }
 
+.aboutMe-img{
+    width: 40%;
+}
+
+.aboutMe-img img{
+    width: 100%;
+}
+
 /* skills rating */
 /* The bar container */
 .bar-container {
