@@ -307,11 +307,13 @@ main>section{
   }
   
   /* Individual bars */
-  .html {width: 70%; height: 10px; background-color: var(--black);}
-  .css {width: 68%; height: 10px; background-color: var(--black);}
-  .bootstrap {width: 60%; height: 10px; background-color: var(--black);}
-  .js {width: 60%; height: 10px; background-color: var(--black);}
-  .react {width: 40%; height: 10px; background-color: var(--black);}
+  .html {width: 80%; height: 10px; background-color: var(--black);}
+  .css {width: 78%; height: 10px; background-color: var(--black);}
+  .bootstrap {width: 80%; height: 10px; background-color: var(--black);}
+  .js {width: 70%; height: 10px; background-color: var(--black);}
+  .react {width: 70%; height: 10px; background-color: var(--black);}
+  .node {width: 70%; height: 10px; background-color: var(--black);}
+  .mysql {width: 60%; height: 10px; background-color: var(--black);}
 
 /* services styles */
 .services{
