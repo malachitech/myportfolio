@@ -48,6 +48,7 @@ header{
 
 nav{
     position: fixed;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     padding: 30px;
@@ -57,9 +58,10 @@ nav{
 }
 .nav-list{
     margin-left: 32vw;
+    font-size: 0.8em;
 }
 .nav-list > *{
-    margin-right: 20px;
+    margin-right: 10px;
     color: var(--white);
     transition: 0.5s ease-in;
     position: relative;
@@ -402,11 +404,13 @@ main>section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 .portfolio-card{
     width: 100%;
     background-color: var(--white);
+    margin: 20px 0;
 }
 .portfolio-card-link{
     width: 30%;
@@ -558,11 +562,18 @@ footer > *{
 .socials{
     margin-top: 20px;
 }
-.socials a{
+.topsocials{
+    margin-left: 20px;
+}
+.socials a, .topsocials a{
     background-color: var(--black);
     padding: 10px;
     cursor: pointer;
     color: var(--white);
+
+}
+.topsocials a{
+    font-size: 0.6em;
 }
 .itskills{
     color: var(--gold);
@@ -729,6 +740,15 @@ footer{
 }
 footer > *{
     width: 100%;
+}
+
+
+
+.topsocials{
+    display: none;
+}
+.socials{
+    line-height: 3;
 }
 
 }
